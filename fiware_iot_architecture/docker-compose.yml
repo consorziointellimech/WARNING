@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+   
+    dcf:
+        image:  docker.ramp.eu/shop4cf/dcf-data-processing:1.9.5
+        container_name: dcf
+        hostname: dcf
+        ports:
+          - "1028:1028"
+        expose:
+        - "1028"
+        extra_hosts:
+        - "host.docker.internal:host-gateway"
+    
+

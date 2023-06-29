@@ -1,0 +1,595 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6048289391840604257
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -677689953, guid: 1151678044c9117228ff55a2812ebc2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 6969359017994165315}
+  m_fieldPath: m_target.m_value
+--- !u!114 &-5894993020489996913
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 718489366, guid: 1151678044c9117228ff55a2812ebc2a, type: 3}
+  m_Name: FlowConditionsContainer
+  m_EditorClassIdentifier: 
+  m_guid: d2c94b56-4868-400c-98fd-a3607a5ddfa0
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_flowConditions:
+  - {fileID: -3859314170629680260}
+--- !u!114 &-5207817516170908035
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -888436625, guid: 1151678044c9117228ff55a2812ebc2a, type: 3}
+  m_Name: 1 - New Step
+  m_EditorClassIdentifier: 
+  m_guid: 14c7d428-87b2-4d13-b123-f243db610ca1
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: New Step
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - en-US
+      values:
+      - New Step
+  m_uiPosition: {x: 578.12164, y: 246.62988}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_step: {fileID: 0}
+  m_flowElements:
+  - {fileID: 6969359017994165315}
+  - {fileID: -5894993020489996913}
+  m_number: 1
+  m_description:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - en-US
+      values:
+      - 
+  m_isMandatory: 0
+  m_hint: {fileID: 5019576233063404118}
+  m_precheck: 0
+  m_takeNotes: 0
+--- !u!114 &-4903667382716533580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1568918378, guid: 1151678044c9117228ff55a2812ebc2a, type: 3}
+  m_Name: WEAVRLocalizationTable
+  m_EditorClassIdentifier: 
+  m_defaultLanguage: {fileID: 11400000, guid: ca371711ff02300469a67adb9ef472a0, type: 2}
+  m_languages:
+  - {fileID: 11400000, guid: ca371711ff02300469a67adb9ef472a0, type: 2}
+  m_rows: []
+--- !u!114 &-4681892165748482833
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 975951514, guid: 1151678044c9117228ff55a2812ebc2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_reference: {fileID: 0}
+  m_scenePath: Cube
+  m_typename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  m_uniqueId: 7--418300867--629027795--629027795
+  m_targets:
+  - {fileID: -6048289391840604257}
+--- !u!114 &-3859314170629680260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1477728573, guid: 1151678044c9117228ff55a2812ebc2a, type: 3}
+  m_Name: FlowCondition
+  m_EditorClassIdentifier: 
+  m_guid: bc23edd2-8996-49de-a91c-729b928e6875
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_transition: {fileID: 0}
+  m_condition: {fileID: 0}
+  m_keepFlowAlive: 0
+--- !u!114 &-2321294292803749509
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -53347047, guid: 1151678044c9117228ff55a2812ebc2a, type: 3}
+  m_Name: ReferenceTable
+  m_EditorClassIdentifier: 
+  m_guid: 246ec6ce-0fdc-4615-99c8-9f478771d823
+  m_procedure: {fileID: 11400000}
+  m_references:
+  - {fileID: -4681892165748482833}
+  m_sceneData:
+    m_sceneName: New Scene
+    m_scenePath: Assets/Scenes/New Scene.unity
+    m_sceneGuid: 5c82a0a55398b5149aed3ac7130a3e24
+  m_prevReferences:
+  - '{"scenePath":"Cube","typeName":"UnityEngine.GameObject, UnityEngine.CoreModule,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","uniqueId":"7--418300867--629027795--629027795","targets":["{\"type\":0,\"data\":\"2d140388-d79e-4c98-b1a2-842bb1c52613|m_target.m_value\"}"]}'
+  m_exposedProperties:
+    keys: []
+    values: []
+--- !u!114 &-2243936687001006532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 672879079, guid: 1151678044c9117228ff55a2812ebc2a, type: 3}
+  m_Name: OperationsSupportConfig
+  m_EditorClassIdentifier: 
+  m_shortName: OpS
+  m_template: Operations Support
+  m_canSkipSteps: 1
+  m_templateDescription: 
+  m_defaultExecutionMode: {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_hintsReplayExecutionMode: {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_executionModes:
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+--- !u!114 &-198674519652813118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1582614642, guid: 1151678044c9117228ff55a2812ebc2a, type: 3}
+  m_Name: BaseGraph
+  m_EditorClassIdentifier: 
+  m_guid: dd80343b-895c-41d3-a74e-2e570071f3df
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 660, y: 120.5}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_referencesTable: {fileID: -2321294292803749509}
+  m_nodes:
+  - {fileID: -5207817516170908035}
+  m_steps: []
+  m_transitions: []
+  m_startingNodes:
+  - {fileID: -5207817516170908035}
+  m_flowStartNodes: []
+  m_debugStartNodes: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -246766052, guid: 1151678044c9117228ff55a2812ebc2a, type: 3}
+  m_Name: test
+  m_EditorClassIdentifier: 
+  m_guid: d00c48b5-080d-44e4-9230-53dbd021e926
+  m_procedure: {fileID: 11400000}
+  m_procedureName: test
+  m_description: 
+  m_creatorVersion: 2.3.0
+  m_config: {fileID: -2243936687001006532}
+  m_networkConfig:
+    isNetworkEnabled: 1
+    m_minNumberOfPlayers:
+      enabled: 0
+      value: 2
+    m_maxNumberOfPlayers:
+      enabled: 1
+      value: 10
+    m_usersColors:
+    - {r: 0.24961358, g: 0.08349474, b: 0.5048489, a: 1}
+    - {r: 0.5488339, g: 0.009002958, b: 0.15420541, a: 1}
+    - {r: 0.0065920227, g: 0.005436686, b: 0.0112104425, a: 1}
+    - {r: 0.32667688, g: 0.0036685397, b: 0.16585256, a: 1}
+    - {r: 0.006262418, g: 0.03127395, b: 0.18056537, a: 1}
+    - {r: 0.0023115166, g: 0.0008960342, b: 0.05101729, a: 1}
+    - {r: 0.9914564, g: 0.66106814, b: 0.9820984, a: 1}
+    - {r: 0.92127067, g: 0.93653476, b: 0.37397164, a: 1}
+    - {r: 0.121374995, g: 0.41202688, b: 0.47739273, a: 1}
+    - {r: 0.012749725, g: 0.39576262, b: 0.007922511, a: 1}
+  m_localizationTable: {fileID: -4903667382716533580}
+  m_capabilities:
+    augmentedReality: 0
+    stepInfo: 1
+    showAllButtons: 0
+    analytics: 1
+    notes: 0
+    resetCamera: 0
+    changeExecutionMode: 0
+    replayStep: 0
+  m_media:
+    previewImage: {fileID: 0}
+  m_environment:
+    additiveScenes: []
+  m_lastUpdate: 638192432389595638
+  m_graph: {fileID: -198674519652813118}
+  m_variables:
+    m_variables:
+    - name: WeavrCamera
+      type: 7
+      references: 0
+      persisted: 1
+      readOnly: 1
+      m_string: 
+      m_generic: {x: 0, y: 0, z: 0, w: 0}
+      m_object: {fileID: 0}
+    - name: CurrentStep
+      type: 4
+      references: 0
+      persisted: 1
+      readOnly: 1
+      m_string: 
+      m_generic: {x: 0, y: 0, z: 0, w: 0}
+      m_object: {fileID: 0}
+    - name: GrabbedObject
+      type: 7
+      references: 0
+      persisted: 1
+      readOnly: 1
+      m_string: 
+      m_generic: {x: 0, y: 0, z: 0, w: 0}
+      m_object: {fileID: 0}
+    - name: ARMode
+      type: 1
+      references: 0
+      persisted: 1
+      readOnly: 1
+      m_string: 
+      m_generic: {x: 0, y: 0, z: 0, w: 0}
+      m_object: {fileID: 0}
+  m_buttons:
+    m_buttons:
+    - rid: 4260828754187911853
+    - rid: 4260828754187911854
+    - rid: 4260828754187911855
+    - rid: 4260828754187911856
+    - rid: 4260828754187911857
+    - rid: 4260828754187911858
+  m_navigation:
+    m_navigationItems:
+    - rid: 4260828754187911658
+    m_customButtons: []
+    m_dynamicNavigation: 1
+  m_events:
+    m_events:
+    - rid: 4260828754187911659
+    - rid: 4260828754187911660
+  m_playerComponents:
+    m_playerComponents:
+    - rid: 4260828754187911780
+    - rid: 4260828754187911781
+    - rid: 4260828754187911782
+    - rid: 4260828754187911783
+    - rid: 4260828754187911784
+  references:
+    version: 2
+    RefIds:
+    - rid: 4260828754187911658
+      type: {class: ProcedureNavigation/DynamicNavigationPlaceholder, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+    - rid: 4260828754187911659
+      type: {class: ProcedureEvents/BuiltinEvent, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+      data:
+        name: Step Started
+    - rid: 4260828754187911660
+      type: {class: ProcedureEvents/BuiltinEvent, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+      data:
+        name: Step Finished
+    - rid: 4260828754187911780
+      type: {class: ProcedurePlayerComponents/BuiltinPlayerComponents, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+      data:
+        m_id: ProcedureRunView.Header
+        m_gameObject: Header
+        m_view: ProcedureRunView
+        m_path: 
+        m_screenPos:
+          serializedVersion: 2
+          x: 0
+          y: -0.000000054573636
+          width: 1
+          height: 0.13518548
+        m_imagePath: Packages\com.pacelab.weavr\WEAVR\Essential\Editor\Resources\Textures\ProcedureRunPage.png
+    - rid: 4260828754187911781
+      type: {class: ProcedurePlayerComponents/BuiltinPlayerComponents, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+      data:
+        m_id: ProcedureRunView.Title_Panel
+        m_gameObject: Title_Panel
+        m_view: ProcedureRunView
+        m_path: 
+        m_screenPos:
+          serializedVersion: 2
+          x: 0.00002463637
+          y: -0.000000054573636
+          width: 0.9999507
+          height: 0.13518548
+        m_imagePath: Packages\com.pacelab.weavr\WEAVR\Essential\Editor\Resources\Textures\ProcedureRunPage.png
+    - rid: 4260828754187911782
+      type: {class: ProcedurePlayerComponents/BuiltinPlayerComponents, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+      data:
+        m_id: ProcedureRunView.Footer
+        m_gameObject: Footer
+        m_view: ProcedureRunView
+        m_path: 
+        m_screenPos:
+          serializedVersion: 2
+          x: 0
+          y: 0.7972218
+          width: 1
+          height: 0.20277822
+        m_imagePath: Packages\com.pacelab.weavr\WEAVR\Essential\Editor\Resources\Textures\ProcedureRunPage.png
+    - rid: 4260828754187911783
+      type: {class: ProcedurePlayerComponents/BuiltinPlayerComponents, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+      data:
+        m_id: ProcedureRunView.StepInfo_Panel
+        m_gameObject: StepInfo_Panel
+        m_view: ProcedureRunView
+        m_path: 
+        m_screenPos:
+          serializedVersion: 2
+          x: 0.000008709828
+          y: 0.8051075
+          width: 0.78595066
+          height: 0.1948924
+        m_imagePath: Packages\com.pacelab.weavr\WEAVR\Essential\Editor\Resources\Textures\ProcedureRunPage.png
+    - rid: 4260828754187911784
+      type: {class: ProcedurePlayerComponents/BuiltinPlayerComponents, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+      data:
+        m_id: ProcedureRunView.StepNext_Button
+        m_gameObject: StepNext_Button
+        m_view: ProcedureRunView
+        m_path: 
+        m_screenPos:
+          serializedVersion: 2
+          x: 0.9443494
+          y: 0.82369554
+          width: 0.042808127
+          height: 0.11265457
+        m_imagePath: Packages\com.pacelab.weavr\WEAVR\Essential\Editor\Resources\Textures\ProcedureRunPage.png
+    - rid: 4260828754187911853
+      type: {class: PlayerButtons/PlayerButton, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+      data:
+        m_id: PreviousStep
+        m_label: Previous
+        m_color: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 4260828754187911854
+      type: {class: PlayerButtons/PlayerButton, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+      data:
+        m_id: NextStep
+        m_label: Next
+        m_color: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 4260828754187911855
+      type: {class: PlayerButtons/PlayerToggle, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+      data:
+        m_id: AR Toggle
+        m_labelOn: Disable AR
+        m_labelOff: Enable AR
+        m_colorOn: {r: 0, g: 0, b: 0, a: 0}
+        m_colorOff: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 4260828754187911856
+      type: {class: PlayerButtons/PlayerButton, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+      data:
+        m_id: ResetView Button
+        m_label: Reset Position
+        m_color: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 4260828754187911857
+      type: {class: PlayerButtons/PlayerToggle, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+      data:
+        m_id: LockOrbit Toggle
+        m_labelOn: Unlock Movement
+        m_labelOff: Lock Movement
+        m_colorOn: {r: 0, g: 0, b: 0, a: 0}
+        m_colorOff: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 4260828754187911858
+      type: {class: PlayerButtons/PlayerToggle, ns: TXT.WEAVR.Procedure, asm: WEAVR.Essential.Runtime}
+      data:
+        m_id: LockAR Toggle
+        m_labelOn: Unlock Movement
+        m_labelOff: Lock Movement
+        m_colorOn: {r: 0, g: 0, b: 0, a: 0}
+        m_colorOff: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &5019576233063404118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1615293177, guid: 1151678044c9117228ff55a2812ebc2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+--- !u!114 &6969359017994165315
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -594710883, guid: 1151678044c9117228ff55a2812ebc2a, type: 3}
+  m_Name: 'Cube: ciao'
+  m_EditorClassIdentifier: 
+  m_guid: 2d140388-d79e-4c98-b1a2-842bb1c52613
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  m_isAsyncAction: 1
+  m_isRevAction: 1
+  separator: 0
+  m_revertOnExit: 0
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_provider: 
+    m_value: {fileID: 0}
+  m_showBillboard: 1
+  m_sample:
+    m_variableName: 
+    m_isVar: 0
+    m_provider: 
+    m_value: {fileID: 0}
+  m_billboardTheme: {fileID: 0}
+  m_text:
+    m_variableName: 
+    m_isVar: 0
+    m_provider: 
+    m_value:
+      m_key: 
+      m_defaultValue: ciao
+      m_hasInitializerValue: 0
+      m_values:
+        keys:
+        - en-US
+        values:
+        - ciao
+  m_modifiers: []
+  m_advanced:
+    usePopupPoints:
+      enabled: 0
+      value: 0
+    startPoint:
+      enabled: 1
+      value: {x: 0, y: 0, z: 0}
+    endPoint:
+      enabled: 1
+      value: {x: 0, y: 0.5, z: 0}
+    avoidOcclusion:
+      enabled: 0
+      value: 0
+    showLine:
+      enabled: 0
+      value: 0
+    worldSize:
+      enabled: 0
+      value:
+        min: 0
+        max: 0
+    visibleDistance:
+      enabled: 0
+      value:
+        min: 0
+        max: 0
+    dynamicSize:
+      enabled: 0
+      value: 0
+    lookAtCamera:
+      enabled: 0
+      value: 0
+    keepOrientation:
+      enabled: 0
+      value: 0
+    rotationAxis:
+      enabled: 0
+      value: 0
+  m_timeout:
+    enabled: 0
+    value:
+      m_variableName: 
+      m_isVar: 0
+      m_provider: 
+      m_value: 0
+  m_outline:
+    enabled: 0
+    value:
+      m_variableName: 
+      m_isVar: 0
+      m_provider: 
+      m_value: {r: 0.070297144, g: 0.5943396, b: 0.022427892, a: 1}
+  m_showNavigation:
+    m_variableName: ShowNavigation
+    m_isVar: 0
+    m_provider: 
+    m_value: 0
+  m_targetOrientation: {x: 0, y: 0, z: 0, w: 1}
+  m_isGlobal: 0
